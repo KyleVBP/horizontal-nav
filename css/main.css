@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+  color: #fff;
+  background-color: #dbd6cf;
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  background-color: #79756f;
+  border: 3px solid #595652;
+  margin: -.5em -1em -.5em -1em;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Bevan", sans-serif;
+}
+
+.hnav li {
+  display: inline-block;
+  text-align: center;
+}
+
+.hnav a {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  background-color: #713837;
+  padding: .5em .75em;
+  border-radius: 4px;
+}
+
+.hnav a:hover {
+  background-color: #f33;
+}
