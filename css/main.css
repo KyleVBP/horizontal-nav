@@ -12,26 +12,56 @@ html {
 
 header {
   background-color: #79756f;
-  border: 3px solid #595652;
-  margin: -.5em -1em -.5em -1em;
+  border-top: 3px solid #595652;
+  border-bottom: 3px solid #595652;
+}
+
+body {
+  margin: 0em;
 }
 
 h1 {
   text-align: center;
-  font-family: "Bevan", sans-serif;
+  padding: 0px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-family: "Bevan";
+}
+
+.nav {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+ul {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .hnav li {
-  display: inline-block;
+  display: inline;
+  position: relative;
+  float: none;
   text-align: center;
+  list-style-type: none;
 }
 
 .hnav a {
+  float: none;
   text-decoration: none;
   display: inline-block;
   color: #fff;
   background-color: #713837;
   padding: .5em .75em;
+  margin: 0em;
   border-radius: 4px;
 }
 
